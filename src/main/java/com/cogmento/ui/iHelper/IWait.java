@@ -7,11 +7,11 @@ import org.openqa.selenium.WebElement;
 
 public interface IWait {
 
-	public WebElement visibilityOfElement();
+	public WebElement visibilityOfElement(WebElement webElement);
 	
-	public WebElement elementToBeClickable();
+	public WebElement elementToBeClickable(WebElement webElement);
 	
-	public List<WebElement> visiblilityOfAllElements();
+	public List<WebElement> visiblilityOfAllElements(List<WebElement> webElementList);
 	
 	public Alert alertIsPresent();
 }
