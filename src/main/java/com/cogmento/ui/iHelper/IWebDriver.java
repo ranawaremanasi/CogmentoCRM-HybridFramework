@@ -27,4 +27,8 @@ public interface IWebDriver {
 	public void back();
 	
 	public void refresh();
+	
+	public void close();
+	
+	public void quit();
 }

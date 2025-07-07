@@ -75,4 +75,16 @@ public class WebDriverImpl extends Base implements IWebDriver{
 		
 		getDriver().navigate().refresh();
 	}
+
+	@Override
+	public void close() {
+		
+		getDriver().close();
+	}
+
+	@Override
+	public void quit() {
+		
+		getDriver().quit();
+	}
 }
