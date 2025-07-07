@@ -1,5 +1,10 @@
 package com.cogmento.ui.base;
 
-public class Base {
+import com.cogmento.ui.utility.DriverFactory;
 
+public class Base extends DriverFactory{
+
+	private void initialization() {
+		
+	}
 }
