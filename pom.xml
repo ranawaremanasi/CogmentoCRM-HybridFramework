@@ -108,5 +108,13 @@
 			<artifactId>ashot</artifactId>
 			<version>1.5.2</version>
 		</dependency>
+
+		<!-- Add to pom.xml -->
+		<dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<version>5.8.0</version> <!-- check for latest -->
+		</dependency>
+
 	</dependencies>
 </project>
