@@ -2,6 +2,8 @@ package com.cogmento.ui.iHelper;
 
 import java.time.Duration;
 
+import org.openqa.selenium.WindowType;
+
 public interface IWebDriver {
 
 	public void get(String openUrl);
@@ -31,4 +33,6 @@ public interface IWebDriver {
 	public void close();
 	
 	public void quit();
+	
+	public void newWindow(WindowType windowType); 
 }
