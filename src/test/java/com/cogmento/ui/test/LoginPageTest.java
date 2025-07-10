@@ -21,7 +21,7 @@ public class LoginPageTest extends Base {
 		login.LoginFunctionality("ranawaremanasi17@gmail.com", "Admin2025$$");
 	}
 	
-	@Test
+	@Test(priority=1)
 	public void clickOnLoginBtn() {
 		login.clickOnLoginBtn();
 	}
