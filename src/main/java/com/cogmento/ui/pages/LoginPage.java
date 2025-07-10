@@ -13,13 +13,13 @@ public class LoginPage extends Base {
 	
 	// Object Repository
 	@FindBy(xpath = "//input[@name='email']")
-	WebElement email;
+	private WebElement email;
 	
 	@FindBy(xpath = "//input[@name='password']")
-	WebElement password;
+	private WebElement password;
 	
 	@FindBy(xpath = "//div[text()='Login']")
-	WebElement loginBtn;
+	private WebElement loginBtn;
 
 	// POM using PageFactory.initElements() method to initialize OR
 	public LoginPage() {
