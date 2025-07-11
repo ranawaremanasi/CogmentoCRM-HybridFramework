@@ -10,6 +10,11 @@
           <include name="clickOnLoginBtn"/>
         </methods>
       </class> <!-- com.cogmento.ui.test.LoginPageTest -->
+      <class name="com.cogmento.ui.test.LogoutTest">
+        <methods>
+          <include name="logoutFunctionality"/>
+        </methods>
+      </class> <!-- com.cogmento.ui.test.LogoutTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Cogmento UI Tests] -->
