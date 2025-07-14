@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Cogmento UI Tests]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="Test1(failed)">
     <classes>
-      <class name="com.cogmento.ui.test.LoginPageTest">
+      <class name="com.cogmento.ui.test.CreateNewDealPageTest">
         <methods>
-          <include name="loginFunctionality"/>
-          <include name="setUp"/>
-          <include name="clickOnLoginBtn"/>
+          <include name="validateCreateNewDealFunctionality"/>
         </methods>
-      </class> <!-- com.cogmento.ui.test.LoginPageTest -->
-      <class name="com.cogmento.ui.test.LogoutTest">
-        <methods>
-          <include name="logoutFunctionality"/>
-        </methods>
-      </class> <!-- com.cogmento.ui.test.LogoutTest -->
+      </class> <!-- com.cogmento.ui.test.CreateNewDealPageTest -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Cogmento UI Tests] -->

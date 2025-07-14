@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Cogmento_UI_Tests" class="navigator-link">
-              <span class="suite-name border-skipped">Cogmento UI Tests</span>
+              <span class="suite-name border-failed">Cogmento UI Tests</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,31 +93,50 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,  3 skipped,  </span>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Cogmento_UI_Tests" class="hide-methods skipped suite-Cogmento_UI_Tests"> (hide)</a> <!-- hide-methods skipped suite-Cogmento_UI_Tests -->
-                      <a href="#" panel-name="suite-Cogmento_UI_Tests" class="show-methods skipped suite-Cogmento_UI_Tests"> (show)</a> <!-- show-methods skipped suite-Cogmento_UI_Tests -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Cogmento_UI_Tests" class="hide-methods failed suite-Cogmento_UI_Tests"> (hide)</a> <!-- hide-methods failed suite-Cogmento_UI_Tests -->
+                      <a href="#" panel-name="suite-Cogmento_UI_Tests" class="show-methods failed suite-Cogmento_UI_Tests"> (show)</a> <!-- show-methods failed suite-Cogmento_UI_Tests -->
                     </span>
-                    <div class="method-list-content skipped suite-Cogmento_UI_Tests">
+                    <div class="method-list-content failed suite-Cogmento_UI_Tests">
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Cogmento_UI_Tests" title="com.cogmento.ui.test.LoginPageTest" class="method navigator-link" hash-for-method="clickOnLoginBtn">clickOnLoginBtn</a> <!-- method navigator-link -->
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cogmento_UI_Tests" title="com.cogmento.ui.test.CreateNewDealPageTest" class="method navigator-link" hash-for-method="validateCreateNewDealFunctionality">validateCreateNewDealFunctionality</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                    </div> <!-- method-list-content failed suite-Cogmento_UI_Tests -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Cogmento_UI_Tests" class="hide-methods passed suite-Cogmento_UI_Tests"> (hide)</a> <!-- hide-methods passed suite-Cogmento_UI_Tests -->
+                      <a href="#" panel-name="suite-Cogmento_UI_Tests" class="show-methods passed suite-Cogmento_UI_Tests"> (show)</a> <!-- show-methods passed suite-Cogmento_UI_Tests -->
+                    </span>
+                    <div class="method-list-content passed suite-Cogmento_UI_Tests">
                       <span>
-                        <img src="skipped.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Cogmento_UI_Tests" title="com.cogmento.ui.test.LoginPageTest" class="method navigator-link" hash-for-method="loginFunctionality">loginFunctionality</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Cogmento_UI_Tests" title="com.cogmento.ui.test.LogoutTest" class="method navigator-link" hash-for-method="logoutFunctionality">logoutFunctionality</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-Cogmento_UI_Tests -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cogmento_UI_Tests" title="com.cogmento.ui.test.DealsPageTest" class="method navigator-link" hash-for-method="validateNavigateToDeal">validateNavigateToDeal</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cogmento_UI_Tests" title="com.cogmento.ui.test.ContactPageTest" class="method navigator-link" hash-for-method="validateNewContactFunctionality">validateNewContactFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Cogmento_UI_Tests -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -129,25 +148,34 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Cogmento_UI_Tests" class="panel Cogmento_UI_Tests">
-          <div class="suite-Cogmento_UI_Tests-class-skipped">
+          <div class="suite-Cogmento_UI_Tests-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">com.cogmento.ui.test.LoginPageTest</span>
+              <img src="failed.png"/>
+              <span class="class-name">com.cogmento.ui.test.CreateNewDealPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="clickOnLoginBtn">
-                  </a> <!-- clickOnLoginBtn -->
-                  <span class="method-name">clickOnLoginBtn</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 29.119
-  (Session info: chrome=138.0.7204.97)
+                  <a name="validateCreateNewDealFunctionality">
+                  </a> <!-- validateCreateNewDealFunctionality -->
+                  <span class="method-name">validateCreateNewDealFunctionality</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (154134345ddc0637cf8309d4c52b821c)] -&gt; xpath: //input[@name=&apos;title&apos;]] (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.cogmento.ui.utility.WaitImpl.visibilityOfElement(WaitImpl.java:20)
+	at com.cogmento.ui.utility.WebElementImpl.sendKeys(WebElementImpl.java:27)
+	at com.cogmento.ui.pages.CreateNewDealPage.createNewDealFunctionality(CreateNewDealPage.java:50)
+	at com.cogmento.ui.test.CreateNewDealPageTest.validateCreateNewDealFunctionality(CreateNewDealPageTest.java:16)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;title&apos;]&quot;}
+  (Session info: chrome=138.0.7204.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f9224cdca835a77ff505017fd4e96dc5, get {url=https://ui.cogmento.com/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.97, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Manasi\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54820}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54820/devtoo..., se:cdpVersion: 138.0.7204.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f9224cdca835a77ff505017fd4e96dc5
+Command: [154134345ddc0637cf8309d4c52b821c, findElement {value=//input[@name=&apos;title&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Manasi\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53310}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53310/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 154134345ddc0637cf8309d4c52b821c
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -155,47 +183,42 @@ Session ID: f9224cdca835a77ff505017fd4e96dc5
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
-	at com.cogmento.ui.utility.WebDriverImpl.get(WebDriverImpl.java:14)
-	at com.cogmento.ui.base.Base.initialization(Base.java:24)
-	at com.cogmento.ui.test.LoginPageTest.setUp(LoginPageTest.java:15)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginFunctionality">
-                  </a> <!-- loginFunctionality -->
-                  <span class="method-name">loginFunctionality</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 29.119
-  (Session info: chrome=138.0.7204.97)
-Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f9224cdca835a77ff505017fd4e96dc5, get {url=https://ui.cogmento.com/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.97, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Manasi\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54820}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54820/devtoo..., se:cdpVersion: 138.0.7204.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f9224cdca835a77ff505017fd4e96dc5
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
-	at com.cogmento.ui.utility.WebDriverImpl.get(WebDriverImpl.java:14)
-	at com.cogmento.ui.base.Base.initialization(Base.java:24)
-	at com.cogmento.ui.test.LoginPageTest.setUp(LoginPageTest.java:15)
-... Removed 29 stack frames
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 32 more
+... Removed 32 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Cogmento_UI_Tests-class-skipped -->
-          <div class="suite-Cogmento_UI_Tests-class-skipped">
+          </div> <!-- suite-Cogmento_UI_Tests-class-failed -->
+          <div class="suite-Cogmento_UI_Tests-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="passed.png"/>
+              <span class="class-name">com.cogmento.ui.test.DealsPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateNavigateToDeal">
+                  </a> <!-- validateNavigateToDeal -->
+                  <span class="method-name">validateNavigateToDeal</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cogmento_UI_Tests-class-passed -->
+          <div class="suite-Cogmento_UI_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">com.cogmento.ui.test.LogoutTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -204,31 +227,40 @@ Session ID: f9224cdca835a77ff505017fd4e96dc5
                   <a name="logoutFunctionality">
                   </a> <!-- logoutFunctionality -->
                   <span class="method-name">logoutFunctionality</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 29.119
-  (Session info: chrome=138.0.7204.97)
-Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f9224cdca835a77ff505017fd4e96dc5, get {url=https://ui.cogmento.com/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.97, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Manasi\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54820}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54820/devtoo..., se:cdpVersion: 138.0.7204.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f9224cdca835a77ff505017fd4e96dc5
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
-	at com.cogmento.ui.utility.WebDriverImpl.get(WebDriverImpl.java:14)
-	at com.cogmento.ui.base.Base.initialization(Base.java:24)
-	at com.cogmento.ui.test.LoginPageTest.setUp(LoginPageTest.java:15)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Cogmento_UI_Tests-class-skipped -->
+          </div> <!-- suite-Cogmento_UI_Tests-class-passed -->
+          <div class="suite-Cogmento_UI_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.cogmento.ui.test.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginFunctionality">
+                  </a> <!-- loginFunctionality -->
+                  <span class="method-name">loginFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cogmento_UI_Tests-class-passed -->
+          <div class="suite-Cogmento_UI_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.cogmento.ui.test.ContactPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateNewContactFunctionality">
+                  </a> <!-- validateNewContactFunctionality -->
+                  <span class="method-name">validateNewContactFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cogmento_UI_Tests-class-passed -->
         </div> <!-- panel Cogmento_UI_Tests -->
         <div panel-name="test-xml-Cogmento_UI_Tests" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -239,12 +271,15 @@ Session ID: f9224cdca835a77ff505017fd4e96dc5
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Cogmento UI Tests&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test1&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.cogmento.ui.test.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;com.cogmento.ui.test.ContactPageTest&quot;/&gt;
+      &lt;class name=&quot;com.cogmento.ui.test.DealsPageTest&quot;/&gt;
+      &lt;class name=&quot;com.cogmento.ui.test.CreateNewDealPageTest&quot;/&gt;
       &lt;class name=&quot;com.cogmento.ui.test.LogoutTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;/test&gt; &lt;!-- Test1 --&gt;
 &lt;/suite&gt; &lt;!-- Cogmento UI Tests --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -256,7 +291,7 @@ Session ID: f9224cdca835a77ff505017fd4e96dc5
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (2 classes)</span>
+                <span class="test-name">Test1 (5 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -282,24 +317,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginFunctionality')
-data.setCell(0, 2, 'com.cogmento.ui.test.LoginPageTest')
-data.setCell(0, 3, 0);
+data.setCell(0, 1, 'validateCreateNewDealFunctionality')
+data.setCell(0, 2, 'com.cogmento.ui.test.CreateNewDealPageTest')
+data.setCell(0, 3, 30238);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'logoutFunctionality')
-data.setCell(1, 2, 'com.cogmento.ui.test.LogoutTest')
-data.setCell(1, 3, 0);
+data.setCell(1, 1, 'validateNewContactFunctionality')
+data.setCell(1, 2, 'com.cogmento.ui.test.ContactPageTest')
+data.setCell(1, 3, 6261);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'clickOnLoginBtn')
-data.setCell(2, 2, 'com.cogmento.ui.test.LoginPageTest')
-data.setCell(2, 3, 0);
+data.setCell(2, 1, 'logoutFunctionality')
+data.setCell(2, 2, 'com.cogmento.ui.test.LogoutTest')
+data.setCell(2, 3, 1514);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginFunctionality')
+data.setCell(3, 2, 'com.cogmento.ui.test.LoginPageTest')
+data.setCell(3, 3, 583);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validateNavigateToDeal')
+data.setCell(4, 2, 'com.cogmento.ui.test.DealsPageTest')
+data.setCell(4, 3, 381);
 window.suiteTableData['Cogmento_UI_Tests']= { tableData: data, tableDiv: 'times-div-Cogmento_UI_Tests'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 38 seconds</span>
               <div id="times-div-Cogmento_UI_Tests">
               </div> <!-- times-div-Cogmento_UI_Tests -->
             </div> <!-- times-div -->
@@ -327,25 +370,42 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.cogmento.ui.test.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">loginFunctionality</span>
-                <span class="method-start">59402 ms</span>
+                <span class="method-start">12055 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cogmento.ui.test.ContactPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">clickOnLoginBtn</span>
-                <span class="method-start">59414 ms</span>
+                <span class="method-name">validateNewContactFunctionality</span>
+                <span class="method-start">12646 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cogmento.ui.test.DealsPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateNavigateToDeal</span>
+                <span class="method-start">18909 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cogmento.ui.test.CreateNewDealPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateCreateNewDealFunctionality</span>
+                <span class="method-start">19330 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cogmento.ui.test.LogoutTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">logoutFunctionality</span>
-                <span class="method-start">59428 ms</span>
+                <span class="method-start">49590 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
